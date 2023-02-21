@@ -8,9 +8,29 @@
 .logo {
   height: 6em;
   padding: 1.5em;
+  text-align: right;
   will-change: filter;
   transition: filter 300ms;
 }
+
+
+
+.expiration-month {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.owner {
+  text-align: left;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.credit-card {
+  border-radius: 1em;
+  margin-bottom: 20px;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }

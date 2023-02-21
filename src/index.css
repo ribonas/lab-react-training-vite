@@ -66,4 +66,73 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  .card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 500px;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .card-text p {
+    margin: 0;
+  }
+  
+  .card-text span {
+    font-weight: 700;
+  }
+
+  .driver-license {
+    background-color: #455Eb6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .license-img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+  }
+
+  .license-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+
+  .driver-info {
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+  .driver-info p,
+  .driver-info h3 {
+    margin: 0;
+  }
+
+  .logo {
+    text-align: right;
+    width: 8rem;
+    justify-self: end;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
 }
